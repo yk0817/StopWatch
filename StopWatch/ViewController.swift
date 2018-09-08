@@ -28,12 +28,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func didTouchPlayButton(_ sender: Any) {
-        print("touch")
         if(IsPlaying) {
             return
         }
         playButton.isEnabled = false
-        playButton.isEnabled = true
+        stopButton.isEnabled = true
         Timer = Foundation.Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(UpdateTimer), userInfo: nil, repeats: true)
         IsPlaying = true
     }

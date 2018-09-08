@@ -55,21 +55,21 @@
                                     <action selector="didTouchResetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5vV-b2-erx"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0y-vf-dGu">
-                                <rect key="frame" x="170" y="60" width="35" height="61.5"/>
-                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0y-vf-dGu">
+                                <rect key="frame" x="140" y="85" width="95" height="82.5"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="67"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="w0y-vf-dGu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="F5W-dQ-Wte"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w0y-vf-dGu" secondAttribute="trailing" constant="140" id="Jdj-sv-KVw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eFx-1f-520" secondAttribute="trailing" id="NI2-BR-2bz"/>
                             <constraint firstItem="eFx-1f-520" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QZC-6H-Tng"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w0y-vf-dGu" secondAttribute="trailing" constant="170" id="gzW-w1-Y1h"/>
-                            <constraint firstItem="w0y-vf-dGu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="170" id="jfp-JB-SW1"/>
+                            <constraint firstItem="w0y-vf-dGu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="tcC-Bi-546"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eFx-1f-520" secondAttribute="bottom" id="zhF-QZ-4Ao"/>
+                            <constraint firstItem="w0y-vf-dGu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="zzM-u7-3tX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -81,6 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
     <resources>
